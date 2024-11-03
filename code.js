@@ -33,7 +33,6 @@ function quicksort(array) {
                 }
             }
             sortedArr[array.indexOf(newPivot)] = newPivot;
-            console.log(sortedArr);
         }
         else {
             isSorted = true;
